@@ -1,0 +1,26 @@
+.eventos{
+    padding: 5.6vh;
+    min-height: 50vh;
+    position: relative;
+    background-color: black;
+    &__container{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        &__text{
+            h2{
+                margin-bottom: 24px;
+                font-size: 32px;
+                font-family: "Press Start 2P", system-ui;
+            }
+        }
+        img{
+            height: 350px;
+        }
+    }
+}
